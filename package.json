@@ -1,0 +1,27 @@
+{
+  "name": "stylint-brunch",
+  "version": "1.0.0",
+  "description": "Adds stylint support to brunch.",
+  "author": "Aurélien David (http://blog.spyl.net/)",
+  "homepage": "https://github.com/spyl94/stylint-brunch",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:spyl94/stylint-brunch.git"
+  },
+  "main": "./lib/index",
+  "scripts": {
+    "prepublish": "rm -rf lib && coffee --bare --output lib/ src/",
+    "test": "node_modules/.bin/mocha --require test/common.js"
+  },
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "loggy": "~0.2.0",
+    "pluralize": "^1.1.2",
+    "stylint": "^0.9.9"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "chai": "^2.1.0",
+    "fake-fs": "^0.5.0"
+  }
+}
