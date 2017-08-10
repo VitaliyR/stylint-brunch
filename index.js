@@ -4,8 +4,7 @@ const stylint = require('stylint');
 
 class Stylinter {
   constructor(config) {
-    this.config = config.plugins.stylint || {};
-    this.linter = stylint;
+    this.config = config.plugins.stylint || undefined;
   }
 
   lint(data, path) {
@@ -42,7 +41,7 @@ class Stylinter {
   }
 }
 
-Stylinter.prototype.Stylinter = true;
+Stylinter.prototype.brunchPlugin = true;
 Stylinter.prototype.type = 'stylesheet';
 Stylinter.prototype.extension = 'styl';
 
