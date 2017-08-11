@@ -1,9 +1,9 @@
 {
   "name": "stylint-brunch",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Adds stylint support to Brunch.",
-  "author": "Aurélien David (http://blog.spyl.net/)",
-  "homepage": "https://github.com/VitaliyR/stylint-brunch",
+  "author": "Tom Quirk <tomquirkacc@gmail.com> (http://tomquirk.com.au)",
+  "homepage": "https://github.com/tomquirk/stylint-brunch",
   "repository": {
     "type": "git",
     "url": "git@github.com:VitaliyR/stylint-brunch.git"
