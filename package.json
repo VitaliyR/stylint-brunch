@@ -6,7 +6,7 @@
   "homepage": "https://github.com/tomquirk/stylint-brunch",
   "repository": {
     "type": "git",
-    "url": "git@github.com:VitaliyR/stylint-brunch.git"
+    "url": "git@github.com:tomquirk/stylint-brunch.git"
   },
   "main": "./index.js",
   "scripts": {
